@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="3" ignored="3" total="9" passed="1" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-23T07:58:25 IST" name="Suite" finished-at="2024-10-23T08:00:10 IST" duration-ms="105545">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="CreateOrganizationTest.createOrganizationTest()[pri:0, instance:Organization.CreateOrganizationTest@402c4085]" name="createOrganizationTest" class="Organization.CreateOrganizationTest"/>
+      </group> <!-- SmokeTest -->
+      <group name="RegressionTest">
+        <method signature="CreateOrganizationTest.createOrganizationTest()[pri:0, instance:Organization.CreateOrganizationTest@402c4085]" name="createOrganizationTest" class="Organization.CreateOrganizationTest"/>
+      </group> <!-- RegressionTest -->
+    </groups>
+    <test started-at="2024-10-23T07:58:25 IST" name="Test" finished-at="2024-10-23T08:00:10 IST" duration-ms="105545">
+      <class name="Campagins.CreateCampaignsTest">
+        <test-method is-config="true" signature="bs()[pri:0, instance:Campagins.CreateCampaignsTest@273444fe]" started-at="2024-10-23T07:58:25 IST" name="bs" finished-at="2024-10-23T07:58:25 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bs -->
+        <test-method is-config="true" signature="bt()[pri:0, instance:Campagins.CreateCampaignsTest@273444fe]" started-at="2024-10-23T07:58:25 IST" name="bt" finished-at="2024-10-23T07:58:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bt -->
+        <test-method is-config="true" signature="bc()[pri:0, instance:Campagins.CreateCampaignsTest@273444fe]" started-at="2024-10-23T07:58:25 IST" name="bc" finished-at="2024-10-23T07:58:28 IST" duration-ms="2663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method is-config="true" signature="bm()[pri:0, instance:Campagins.CreateCampaignsTest@273444fe]" started-at="2024-10-23T07:58:28 IST" name="bm" finished-at="2024-10-23T07:58:32 IST" duration-ms="4431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method retried="true" signature="createCampaignsTest()[pri:0, instance:Campagins.CreateCampaignsTest@273444fe]" started-at="2024-10-23T07:58:32 IST" name="createCampaignsTest" finished-at="2024-10-23T07:58:41 IST" duration-ms="8549" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Im Failing the script]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Im Failing the script
+at org.testng.Assert.fail(Assert.java:111)
+at Campagins.CreateCampaignsTest.createCampaignsTest(CreateCampaignsTest.java:57)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCampaignsTest -->
+        <test-method is-config="true" signature="am()[pri:0, instance:Campagins.CreateCampaignsTest@273444fe]" started-at="2024-10-23T07:58:41 IST" name="am" finished-at="2024-10-23T07:58:43 IST" duration-ms="2224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method is-config="true" signature="bm()[pri:0, instance:Campagins.CreateCampaignsTest@273444fe]" started-at="2024-10-23T07:58:43 IST" name="bm" finished-at="2024-10-23T07:58:47 IST" duration-ms="4112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method retried="true" signature="createCampaignsTest()[pri:0, instance:Campagins.CreateCampaignsTest@273444fe]" started-at="2024-10-23T07:58:47 IST" name="createCampaignsTest" finished-at="2024-10-23T07:58:56 IST" duration-ms="8409" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Im Failing the script]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Im Failing the script
+at org.testng.Assert.fail(Assert.java:111)
+at Campagins.CreateCampaignsTest.createCampaignsTest(CreateCampaignsTest.java:57)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCampaignsTest -->
+        <test-method is-config="true" signature="am()[pri:0, instance:Campagins.CreateCampaignsTest@273444fe]" started-at="2024-10-23T07:58:56 IST" name="am" finished-at="2024-10-23T07:58:58 IST" duration-ms="1921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method is-config="true" signature="bm()[pri:0, instance:Campagins.CreateCampaignsTest@273444fe]" started-at="2024-10-23T07:58:58 IST" name="bm" finished-at="2024-10-23T07:59:02 IST" duration-ms="4036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method retried="true" signature="createCampaignsTest()[pri:0, instance:Campagins.CreateCampaignsTest@273444fe]" started-at="2024-10-23T07:59:02 IST" name="createCampaignsTest" finished-at="2024-10-23T07:59:09 IST" duration-ms="7719" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Im Failing the script]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Im Failing the script
+at org.testng.Assert.fail(Assert.java:111)
+at Campagins.CreateCampaignsTest.createCampaignsTest(CreateCampaignsTest.java:57)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCampaignsTest -->
+        <test-method is-config="true" signature="am()[pri:0, instance:Campagins.CreateCampaignsTest@273444fe]" started-at="2024-10-23T07:59:09 IST" name="am" finished-at="2024-10-23T07:59:11 IST" duration-ms="1733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method is-config="true" signature="bm()[pri:0, instance:Campagins.CreateCampaignsTest@273444fe]" started-at="2024-10-23T07:59:11 IST" name="bm" finished-at="2024-10-23T07:59:14 IST" duration-ms="3409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method signature="createCampaignsTest()[pri:0, instance:Campagins.CreateCampaignsTest@273444fe]" started-at="2024-10-23T07:59:14 IST" name="createCampaignsTest" finished-at="2024-10-23T07:59:22 IST" duration-ms="7712" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Im Failing the script]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Im Failing the script
+at org.testng.Assert.fail(Assert.java:111)
+at Campagins.CreateCampaignsTest.createCampaignsTest(CreateCampaignsTest.java:57)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCampaignsTest -->
+        <test-method is-config="true" signature="am()[pri:0, instance:Campagins.CreateCampaignsTest@273444fe]" started-at="2024-10-23T07:59:23 IST" name="am" finished-at="2024-10-23T07:59:24 IST" duration-ms="1838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:Campagins.CreateCampaignsTest@273444fe]" started-at="2024-10-23T07:59:24 IST" name="ac" finished-at="2024-10-23T07:59:25 IST" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ac -->
+        <test-method is-config="true" signature="at()[pri:0, instance:Campagins.CreateCampaignsTest@273444fe]" started-at="2024-10-23T08:00:10 IST" name="at" finished-at="2024-10-23T08:00:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- at -->
+        <test-method is-config="true" signature="as()[pri:0, instance:Campagins.CreateCampaignsTest@273444fe]" started-at="2024-10-23T08:00:11 IST" name="as" finished-at="2024-10-23T08:00:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- as -->
+      </class> <!-- Campagins.CreateCampaignsTest -->
+      <class name="Organization.CreateOrganizationTest">
+        <test-method is-config="true" signature="bc()[pri:0, instance:Organization.CreateOrganizationTest@402c4085]" started-at="2024-10-23T07:59:25 IST" name="bc" finished-at="2024-10-23T07:59:26 IST" duration-ms="1661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method is-config="true" signature="bm()[pri:0, instance:Organization.CreateOrganizationTest@402c4085]" started-at="2024-10-23T07:59:26 IST" name="bm" finished-at="2024-10-23T07:59:31 IST" duration-ms="4747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method signature="createOrganizationTest()[pri:0, instance:Organization.CreateOrganizationTest@402c4085]" started-at="2024-10-23T07:59:31 IST" name="createOrganizationTest" finished-at="2024-10-23T07:59:51 IST" duration-ms="19549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganizationTest -->
+        <test-method is-config="true" signature="am()[pri:0, instance:Organization.CreateOrganizationTest@402c4085]" started-at="2024-10-23T07:59:51 IST" name="am" finished-at="2024-10-23T07:59:53 IST" duration-ms="2004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:Organization.CreateOrganizationTest@402c4085]" started-at="2024-10-23T07:59:53 IST" name="ac" finished-at="2024-10-23T07:59:53 IST" duration-ms="368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ac -->
+      </class> <!-- Organization.CreateOrganizationTest -->
+      <class name="Product.CreateProductTest">
+        <test-method is-config="true" signature="bc()[pri:0, instance:Product.CreateProductTest@6fa51cd4]" started-at="2024-10-23T07:59:53 IST" name="bc" finished-at="2024-10-23T07:59:55 IST" duration-ms="1704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method is-config="true" signature="bm()[pri:0, instance:Product.CreateProductTest@6fa51cd4]" started-at="2024-10-23T07:59:55 IST" name="bm" finished-at="2024-10-23T07:59:59 IST" duration-ms="4409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method signature="CreateProductTest()[pri:0, instance:Product.CreateProductTest@6fa51cd4]" started-at="2024-10-23T07:59:59 IST" name="CreateProductTest" finished-at="2024-10-23T08:00:07 IST" duration-ms="7971" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Im failing the script]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Im failing the script
+at org.testng.Assert.fail(Assert.java:111)
+at Product.CreateProductTest.CreateProductTest(CreateProductTest.java:54)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateProductTest -->
+        <test-method is-config="true" signature="am()[pri:0, instance:Product.CreateProductTest@6fa51cd4]" started-at="2024-10-23T08:00:07 IST" name="am" finished-at="2024-10-23T08:00:10 IST" duration-ms="2332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:Product.CreateProductTest@6fa51cd4]" started-at="2024-10-23T08:00:10 IST" name="ac" finished-at="2024-10-23T08:00:10 IST" duration-ms="475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ac -->
+      </class> <!-- Product.CreateProductTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
